@@ -11,6 +11,7 @@ nappulat = [
 for nappula in nappulat:
  print("".join(nappula))
 print()
+print()
 def etsi_nappula(vastaus):
     sijainnit = []
     for rivi_indeksi, rivi in enumerate(nappulat):
