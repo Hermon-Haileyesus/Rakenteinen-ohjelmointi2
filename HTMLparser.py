@@ -51,20 +51,8 @@ def print_hierarchy(content, depth=0):
             print_hierarchy(value, depth + 1)
 
 # Input HTML
-html_code = """
-<html>
-    <body>
-        <div>
-            <h1>Joku otsikko</h1>
-            <p>Jotain tekstiä</p>
-        </div>
-        <div>
-            <p>Lisää tekstiä mutta <strong>tässä</strong> on korostus</p>
-        </div>
-    </body>
-</html>
-"""
-
+html_code = open("index.html", encoding="UTF-8" )
+html_code = html_code.read()
 # Parse and display the result
 parsed_html = parse_html(html_code)
 print_hierarchy(parsed_html)
