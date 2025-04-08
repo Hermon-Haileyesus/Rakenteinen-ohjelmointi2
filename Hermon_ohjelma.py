@@ -22,7 +22,7 @@ while True:
         if len(osumat) > 0:
             print(f"Arvottu lottorivi:{oikea_vastaus} ja osumien määrä on {len(osumat)}")
         else:
-            print(f"Arvottu lottorivi:{oikea_vastaus} ja Valitettavasti et saanut yhtään osumaa")
+            print(f"Arvottu lottorivi:{oikea_vastaus} ja Valitettavasti et saanut yhtään osumaa!")
     elif valinta == "v":
         maara = int("kuinka monta matsia haluaa arvata: ")
         vastaus = [input(f"Anna tulos {i+1} (1/X/2): ").strip() for i in range(maara)]

@@ -7,7 +7,7 @@ def kolikonheitto():
     return random.choice(["kruuna", "klaava"])
 def vakioveikkaus(x):
     return [random.choice(["1", "X", "2"]) for _ in range(x)]
-def lista_XO(x,n):
+def vakilista(x,n):
      lista = ["X"] * n + ["O"] * (x - n)
      random.shuffle(lista)
      return lista
