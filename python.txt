@@ -1,0 +1,8 @@
+print(random.randrange(3, 9))
+#returns a number between 3 (included) and 9 (not included)
+
+print(random.randint(3, 9))
+#returns a number between 3 and 9 (both included)
+
+random.sample(range(1,41), 7) or random.sample(mylist, k=2) method returns a list with a specified number of randomly selected items from a sequence
+in range above 41 isnot included
