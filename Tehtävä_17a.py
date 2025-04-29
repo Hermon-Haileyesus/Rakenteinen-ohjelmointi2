@@ -1,3 +1,4 @@
+import sys
 numerot = []
 while True:
     try:
@@ -12,5 +13,8 @@ while True:
        print(f"Lukujen keskiarvo: {sum(numerot) / len(numerot):.2f}")
     except ValueError as e:
         print(f"Virheellinen syöte, {e}")
+    except KeyboardInterrupt:
+           print('\nPoistutaan ...')
+           sys.exit()
     
     
