@@ -1,0 +1,20 @@
+{
+    "ma": {
+        "ruoka1": "dkjfksj",
+        "ruoka2": "dskjlks",
+        "juoma": "kdölsklf",
+        "jälkkäri": "kfdpklf"
+    },
+    "ti": {
+        "ruoka1": "kio",
+        "ruoka2": "lkj",
+        "juoma": "öoih",
+        "jälkkäri": "äöl"
+    },
+    "ke": {
+        "ruoka1": "klfd",
+        "ruoka2": "dkkf",
+        "juoma": "sdlls",
+        "jälkkäri": "öö"
+    }
+}

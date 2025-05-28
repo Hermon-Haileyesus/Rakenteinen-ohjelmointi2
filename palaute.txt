@@ -1,0 +1,11 @@
+mlökj
+
+km
+
+jh
+09
+moi
+koi
+
+
+& C:/Users/Hermon.HERMON-PC/AppData/Local/Microsoft/WindowsApps/python3.13.exe c:/Users/Hermon.HERMON-PC/Documents/Rakenteinen-ohjelmointi2/Tehtävä_17c.py

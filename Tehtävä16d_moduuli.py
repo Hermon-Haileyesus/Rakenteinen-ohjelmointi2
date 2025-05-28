@@ -53,4 +53,4 @@ def vuoden_paivat(year, viikonpaiva):
             nykyinen += timedelta(days=1)
         return paivat
     except:
-        return "Virheelliset syötteet!""""
+        return "Virheelliset syötteet!"""""
